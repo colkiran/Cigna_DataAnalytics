@@ -1,0 +1,97 @@
+Founder of python - Guido Van Russum
+
+Python
+------
+1. SDK
+2. Shell 
+3. IDLE - Integrated Development Environment
+
+two operators overloaded
+------------------------
++ - addition and concatenation
+
+* - multiplication and print a string n number of times
+
+Python Data types(primary)
+--------------------------
+1. Numbers
+   a. integer
+   b. float
+   c. complex
+
+2. Strings
+3. Boolean
+
+in 2.x we had long data type (293820934230472373894534857238L)
+in 3.x we have the same long data type (29382093423047237389453485) without 'L'
+
+#! c:\python312
+
+ax = 500
+print("Hello World" * 5)
+
+Python Coding Rules
+-------------------
+# - comment a  single line
+#!  => Shebang - used to specify the path of python.exe
+
+#! /usr/bin
+
+code
+----
+single line comments  - #
+multiple line comments = """    """ or  '''    '''
+
+
+indentations
+------------
+we dont use paranthesis { } in
+1. if conditions
+2. loops
+3. functions
+4. class
+
+Numbers
+-------
+
+Operators
+---------
+1. Arithmetic
+2. assignment
+3. logical
+4. comparison 
+5. Bitwise
+6. Ternary
+
+Bitwise Operators
+-----------------
+OR
+---
+
+0101
+0011
+----
+0111   =   4 + 2 + 1
+----
+
+AND
+---
+0101
+0011
+----
+0001   =  1 
+----
+
+0110
+
+0101
+0011
+----
+0110  - 6
+----
+
+
+https://dontpad.com/cigna-DA
+
+
+
