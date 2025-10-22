@@ -1,0 +1,176 @@
+Operators
+---------
+
+Bitwise operators
+------------------
+left shift operator <<
+
+5 << 1
+
+0101 << 1
+
+1010 => 10
+
+8 << 1
+
+1000 << 1
+
+10000 - 16
+
+16 >> 1
+
+10000 >> 1
+
+1000 - 8
+
+5 >> 1
+
+0101 >> 1
+
+0010 - 2
+
+Control Structures
+------------------
+1. if condition 
+2. select case - Not available
+
+Loops
+-----
+1. for loop
+2. while loop
+
+
+for loop
+--------
+same as foreach loop in other technologies
+
+for loop depends on collection of objects (numbers)
+
+in for loop  -> start value, incremental value, final value
+
+for loop depends on range function
+
+range(1, 10)
+
+print function
+--------------
+print(data, sep, end = "\n")
+
+while loop
+----------
+while loop is an indefinite loop
+
+while condition (is true):
+    code gets executed.... -> condition becomes false
+
+
+problems
+--------
+1
+23
+456
+78910
+
+
+1 2 3 4 5
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
+   2 1
+  3 2 1
+ 4 3 2 1
+5 4 3 2 1
+
+
+print prime numbers between 150 and 50 also print the count of it
+
+
+write a code to generate Fibonacci series
+
+Strings
+-------
+STRINGS & NUMBERS ARE IMMUTABLE
+--------------------------------
+strings are enclosed in " " or ' ' 
+
+multiline string are enclosed in """ """ or  '''  ''' 
+
+1! = 1
+
+2! = 2
+
+145 = 1! + 4! +5!  => 1 + 24 + 120
+
+40585 = 4! + 0! + 5! + 8! + 5!
+
+Data Structures
+---------------
+list, dictionary, tuple, set
+
+
+1. List
+
+lists are similar to array
+
+what is an array?
+1. arrays are collection of homogenous data
+2. memory allocation is contagious
+
+lists
+-----
+1. collection  of heterogenous data
+2. memory allocation is not contagious
+3. lists are dynamic
+4. lists are ordered collection
+5. lists are mutable
+6. lists are stored in [ ]
+
+
+Sort
+----
+sort - will sort the original data
+sorted - take a copy of the data and performs the sort operation
+
+
+Dictionary
+----------
+also called as associative array
+
+index =	  0    1    2    3    4    5
+array = ['a', 'b', 'c', 'd', 'e', 'f']
+
+Associative array = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+0, 1, 2, 3, 4, 5 = keys
+
+'a', 'b', 'c', 'd', 'e', 'f' = values
+
+emp = {'empid': 'EMP001', 'empname': 'JACK', 'desig', 'MGR'}
+
+
+Dictionary
+----------
+1. keys in a dictionary is user defined
+2. keys are always unique
+3. dictionaries are unordered collection
+4. dictionaries are mutable
+5. dictionaries are stored in {k1: v1, k2: v2....}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

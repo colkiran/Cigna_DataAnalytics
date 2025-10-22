@@ -51,3 +51,11 @@ print("Bitwise Operators".center(60, "-"))
 print(f"5 | 3 :{5 | 3}")
 print(f"5 & 3 :{5 & 3}")
 print(f"5 ^ 3 :{5 ^ 3}")
+print(f"5 << 1 :{5 << 1}")
+print(f"8 << 1 :{8 << 1}")
+print(f"16 >> 1 :{16 >> 1}")
+print(f"5 >> 1 :{5 >> 1}")
+
+print('Ternary operator'.center(60, "-"))
+age = 18
+print("Eligible" if age > 17 else "Not Eligible")
