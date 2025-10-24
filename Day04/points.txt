@@ -1,0 +1,128 @@
+1. Count of males and females
+2. list of unique depts
+3. list of unique desig
+4. sum of all salaries
+5. sum of salaries of female managers
+
+
+Excel
+-----
+excel files are reffered as WorkBook
+each sheet in a excel file is called WorkSheet
+
+in a worksheet we have a grid 
+the grid is made of rows and columns
+
+there are 1048576 rows in a single sheet that is numbered
+there are 16384 columns in a single sheet that is labelled XFD 
+A - Z, AA - Az, BA - BZ.....
+
+cell is an intersection a row and a column
+each cell will have an address based on the intersection
+
+col	row	cell address
+A	10	    A10
+Z	400	    Z400
+
+
+Exceptions
+----------
+why do we need exceptions?
+ 
+
+sys module
+Exception
+
+exceptions are in the form of classes
+-------------------------------------
+Exception is the base class
+
+ZeroDivisionError
+
+ValueError
+
+KeyError
+
+logging module
+---------------
+levels depending on the error
+
+DEBUG - detailed information typically of interest only when diagnosing problem
+
+INFO - to confirm that things are working as expected
+
+WARNING - Indication that something unexpected happened or indicative of some problem in the near future
+
+ERROR - This tells that due to a more serious problem, the software is not able to perform some function
+
+CRITICAL - This tells serious error, indicating the program itself may be unable to continue executing
+
+
+NOTSET 		-	0
+DEBUG		-	10
+INFO		-	20
+WARNING		-	30
+ERROR		-	40
+CRITICAL	-	50
+
+
+os module  - os.system(dos commands),  os.getcwd(), os.cpu_count
+
+sys module - sys.path, sys.exe_info
+
+---------------------------------------------------------------------
+
+Numpy
+-----
+Numerical Python - Travis Oliphant - 2005
+
+Data Types in Python
+By default Python have these data types:
+
+strings - used to represent text data, the text is given under quote marks. e.g. "ABCD"
+integer - used to represent integer numbers. e.g. -1, -2, -3
+float - used to represent real numbers. e.g. 1.2, 42.42
+Boolean - used to represent True or False.
+complex - used to represent complex numbers. e.g. 1.0 + 2.0j, 1.5 + 2.5j
+
+
+Data Types in NumPy
+NumPy has some extra data types, and refer to data types with one character, like i for integers, u for unsigned integers etc.
+
+
+Below is a list of all data types in NumPy and the characters used to represent them.
+
+i - integer
+b - boolean
+u - unsigned integer
+f - float
+c - complex float
+m - timedelta
+M - datetime
+O - object
+S - string
+U - unicode string
+V - fixed chunk of memory for other type ( void )
+
+
+<U6 what is < in the dtype of numpy
+
+
+ → Little-endian byte order indicator.
+
+- < indicates little-endian byte order, which is relevant for numeric types but generally ignored for strings.
+
+Little-endian is a way of storing multi-byte data in computer memory where the least significant byte (LSB) comes first.
+
+What it means
+When a number is stored in memory:
+	• Little-endian puts the smallest byte first.
+	• Big-endian puts the largest byte first.
+
+
+
+
+
+
+
+

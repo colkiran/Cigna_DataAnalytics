@@ -48,9 +48,9 @@ def withDraw():
                 time.sleep(3600)
             else:
                 withDraw()
-        else:
-            print("Thank you for using #### bank.......")
-            return
+            finally:
+                print("Thank you for using #### bank.......")
+                return
 
 
 

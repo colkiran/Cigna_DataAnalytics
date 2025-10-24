@@ -1,0 +1,4 @@
+2025-10-24 15:16:27,974 : DEBUG : root : Difference of 20 and 10 is :10
+2025-10-24 15:16:27,974 : INFO : root : Difference of 20 and 10 is 10
+2025-10-24 15:16:27,975 : ERROR : root : The difference of 30 and 20 is :10
+2025-10-24 15:16:27,975 : CRITICAL : root : The difference of 30 and 20 is :10
