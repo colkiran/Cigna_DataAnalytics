@@ -33,7 +33,8 @@ chart = PieChart3D()
 chart.add_data(dataRef)
 chart.set_categories(labelRef)
 chart.title = "Beverage Sales"
-chart.dataLabels  = DataLabelList()
+chart.legend.position = "b"
+chart.dataLabels = DataLabelList()
 chart.dataLabels.showVal = True
 
 ws.add_chart(chart, "E9")
