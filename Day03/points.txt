@@ -1,0 +1,130 @@
+Tuples
+------
+its a immutable list
+
+it is enclosed in ( )
+
+
+def fun():
+   a = 10; b = 20; c = 30
+   return a, b, c
+
+res = fun()
+# res is tuple
+
+Set
+---
+1. sets are unordered collection of data
+2. elements of a set is always unique
+3. they cannot be subscripted
+4. they are mutable
+5. they are enclosed in {1, 2, 3, 4, 5}
+
+Functions and Modules
+---------------------
+
+Functions
+---------
+what are functions?
+A snippet of reusable code
+
+def function_name(par1, par2....):
+    print("hello world")
+
+function_name(arg1, arg2..)
+
+pass_by_value
+pass by referece
+
+lambda
+------
+map, filter, reduce
+
+nested functions
+closures
+HOF
+Decorators
+
+Modules
+-------
+modules are like libraries
+modules do not have extensions
+consume a module by using import
+
+
+
+
+import mymodule
+
+from mymodule import *
+
+from mymodule import function
+
+from mymodule import class
+
+-------------------------------------------------------------
+import module
+
+checks if the module is present in the library path (sys.path)
+
+Checks for the .pth file in native path (place where python.exe is present). if .pth file is present then include all the path in sys.path
+
+if it is first time then it creates a __pycache__ folder and creates a file with an extension .pyc (compiled copy of the file
+
+if it is not first time then it will compare the .py file with .pyc file for its date and time of creation. it expects .pyc to have the latest date and time else it will recompile the .py file to create new .pyc file assuming that there was changes in the source code
+
+
+File handling (CSV, Excel, JSON, text)
+
+Text file - UTF-8 
+------------------
+UTF = Unicode Text Format
+
+both text files and csv files stores data in ascii format
+
+position = seek(offset, whence)
+
+whence - 0 - BOF
+	 1 - CP
+	 2 - EOF
+
+seek(10, 0)  - 10 bytes will be calculated from BOF
+
+seek(10, 1) - 10 bytes will be calculated from current Position
+
+seek(10, 2) - 10 bytes will be calculated from EOF
+
+tell - returns the position of the file handle
+
+  
+-----------------------------------------------------
+
+['empid', 'empname', 'age', 'dept', 'salary']
+['501', 'Jack', '28', 'HR', '65000']
+['235', 'Jill', '34', 'FIN', '35000']
+['150', 'John', '26', 'AC', '25000']
+['325', 'Jai', '21', 'DEV', '55000']
+['450', 'Guru', '38', 'DEV', '85000']
+['182', 'Sita', '32', 'PRC', '75000']
+['297', 'Gita', '36', 'SUP', '60000']
+
+JSON
+----
+load, loads, 
+
+
+
+
+
+
+Exception handling & logging
+Working with libraries: os, sys, datetime
+
+
+
+
+
+
+
+
+
