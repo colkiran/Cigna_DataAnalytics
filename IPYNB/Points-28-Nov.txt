@@ -1,0 +1,18 @@
+df.rename(columns={
+    'old_name1': 'new_name1',
+    'old_name2': 'new_name2',
+    'old_name3': 'new_name3'
+}, inplace=True)
+
+
+Key Considerations
+
+iloc only works with integer-based indexing.
+
+If you need label-based indexing, use loc.
+
+Ensure indices are within bounds; otherwise, it raises an IndexError.
+
+
+
+
